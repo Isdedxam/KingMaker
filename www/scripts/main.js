@@ -21,6 +21,7 @@ function hunger() {
   }
 }
 */
+
 function makeGold() {
   if (fatigue <= 100) {
     copper = parseInt($( "#copper" ).text());

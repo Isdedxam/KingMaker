@@ -14,7 +14,9 @@ function makeGold() {
     copper = parseInt($( "#copper" ).text());
     //============ random begging chance ===========
     if (Math.random() * 100 > 50) {
-      copper += 1;// got some beg
+      var begReward = parseInt(Math.random() * 5)
+      copper += begReward;// got some beg
+      cmd("A stranger took pity on you and gave you " + begReward + " copper");
     }
     fatigue += 10; // make you more sleepy
     hunger -= 1; // make you more hungry
@@ -23,7 +25,7 @@ function makeGold() {
     console.log(copper);
   }
   else {
-      $("#sleep1").text("You Need to Sleep!!");
+      cmd("You are to sleepy to beg");
   }
 }
 

@@ -9,6 +9,18 @@ console.log($( "#silver" ).text());
 console.log($( "#copper" ).text());
 console.log($( "#sleep1" ).text());
 
+/*
+function hunger() {
+  if (hunger < 1) {
+    hunger = 1;
+    console.log("You're Starving");
+  }
+  if (hunger > 101) {
+    hunger = 100;
+    console.log("You're Well Fed");
+  }
+}
+*/
 function makeGold() {
   if (fatigue <= 100) {
     copper = parseInt($( "#copper" ).text());
@@ -26,7 +38,6 @@ function makeGold() {
       $("#sleep1").text("You Need to Sleep!!");
   }
 }
-
 
 function sleep() {
   $("#sleep1").text("You Feel Rested");
@@ -57,5 +68,4 @@ function eat() {
     $("#hunger").text(hunger);
     $( "#Food" ).text(food);
   }
-
 }

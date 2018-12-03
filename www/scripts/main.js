@@ -27,9 +27,7 @@ function makeGold() {
     copper = parseInt($( "#copper" ).text());
     //============ random begging chance ===========
     if (Math.random() * 100 > 50) {
-      var begReward = parseInt(Math.random() * 5);
-      cmd("A stranger took pity on you and gave you " + begReward + " copper");
-      copper += begReward;// got some beg
+      copper += 1;// got some beg
     }
     fatigue += 10; // make you more sleepy
     hunger -= 1; // make you more hungry

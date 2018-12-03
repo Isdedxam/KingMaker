@@ -38,7 +38,7 @@ function makeGold() {
     console.log(copper);
   }
   else {
-      $("#sleep1").text("You Need to Sleep!!");
+      cmd("You need to rest before begging any further");
   }
 }
 
@@ -71,4 +71,10 @@ function eat() {
     $("#hunger").text(hunger);
     $( "#Food" ).text(food);
   }
+}
+//=================================== Cmd log function ========================
+function cmd(log) {
+  $(".cmd").find('p:first').remove();
+  $(".cmd").append("<p id='cmdText'></p>");
+  $(".cmd").find('p:last').text("# " + log);
 }

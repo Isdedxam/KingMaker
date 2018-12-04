@@ -27,11 +27,11 @@ function makeGold() {
         happiness = happiness - 1;
         $( "#happiness" ).text(happiness);
         var rudePeople =
-        ["Person: Get a Job",
-        "Person: Get out of here you filth",
-        "Person: Honey, look at that disgraceful man",
-        "Person: Sure hope i don't end up like him",
-        "Person: What a sad specticle"];
+        ['Person: "Get a Job"',
+        'Person: "Get out of here you filth"',
+        'Person: "Honey, look at that disgraceful man"',
+        'Person: "Sure hope i dont end up like him"',
+        'Person: "What a sad specticle"'];
         cmd(rudePeople[Math.floor(Math.random()*rudePeople.length)]);
       }
     }
@@ -98,5 +98,5 @@ function eat() {
 function cmd(log) {
   $(".cmd").find('p:first').remove();
   $(".cmd").append("<p id='cmdText'></p>");
-  $(".cmd").find('p:last').text("# " + log);
+  $(".cmd").find('p:last').text("> " + log);
 }

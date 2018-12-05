@@ -58,7 +58,7 @@ var HomePage = /** @class */ (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\elmari\Documents\GitHub\KingMaker\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  The world is your oyster.\n  <p>\n  </p>\n</ion-content>\n'/*ion-inline-end:"C:\Users\elmari\Documents\GitHub\KingMaker\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Kristofer\Documents\GitHub\KingMaker\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      King-Maker\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <p>Title: Pesant</p>\n\n  <div class="cmd">\n\n  <p id="cmdText">#</p>\n\n  <p id="cmdText">#</p>\n\n  <p id="cmdText">#</p>\n\n  <p id="cmdText">#</p>\n\n  <p id="cmdText">#</p>\n\n</div>\n\n  <input id="clickMe" type="button" value="Beg" onclick="makeGold();"/>\n\n  <input id="clickMe2" type="button" value="Sleep in barrel" onclick="sleep();"/>\n\n  <input id="clickMe3" type="button" value="Buy Food" onclick="buyFood();"/>\n\n  <input id="clickMe4" type="button" value="Eat" onclick="eat();"/>\n\n  <br><br>\n\n  <b>Currency:</b>\n\n  <p>Gold: <a id="gold">0</a></p>\n\n  <p>Silver: <a id="silver">0</a></p>\n\n  <p>Copper: <a id="copper">0</a></p>\n\n  <br>\n\n  <b>Character:</b>\n\n\n\n  <p>Hunger: <a id="hunger">100</a>%</p>\n\n  <br>\n\n  <b>Inventory</b>\n\n  <p>Food: <a id="Food">0</a></p>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Kristofer\Documents\GitHub\KingMaker\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], HomePage);
@@ -177,7 +177,7 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\elmari\Documents\GitHub\KingMaker\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\Users\elmari\Documents\GitHub\KingMaker\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Kristofer\Documents\GitHub\KingMaker\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\Kristofer\Documents\GitHub\KingMaker\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
